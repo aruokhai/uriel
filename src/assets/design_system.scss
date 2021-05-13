@@ -1,0 +1,71 @@
+p {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+   margin: 0;
+   padding: 0;
+
+}
+
+
+
+/* Typography */
+@mixin text_header1 {
+   font-size: 64px;
+   font-weight: bold;
+   letter-spacing: -2%;
+}
+
+@mixin text_header2 {
+   font-size: 40px;
+   font-weight: bold;
+   letter-spacing: -2%;
+}
+
+@mixin text_header3 {
+   font-size: 24px;
+   font-weight: bold;
+   letter-spacing: -2%;
+}
+
+@mixin text_body {
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 120%;
+}
+
+@mixin text_bold {
+   font-weight: bold;
+}
+
+@mixin text_small {
+   font-weight: 500;
+   font-size: 14px;
+
+}
+
+@mixin text_pre_text {
+   font-size: 10px;
+   font-weight: bold;
+   letter-spacing: 3%;
+}
+
+@mixin text_button_text {
+   font-size: 10px;
+   font-weight: bold;
+   letter-spacing: 3%;
+}
+
+@mixin text_link {
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: underline;
+}
+
+/* Color */
+
+$primary_color : black;
+$secondary_color : white;
+

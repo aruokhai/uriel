@@ -1,0 +1,111 @@
+html {
+    box-sizing: border-box;
+    width:100%;
+    color: hsla(0, 0%, 45.9%,0.5);
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+p {
+    margin: 0;
+}
+
+div {
+    margin: 0;
+}
+/* Typography */
+.text_header1 {
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.text_header2 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.text_header3 {
+    font-size: 64px;
+    font-weight: bold;
+    letter-spacing: -2%;
+}
+
+.text_body {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.text_bold {
+    font-weight: bold;
+}
+
+.text_small {
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.text_pre_text {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3%;
+}
+
+.text_button_text {
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 3%;
+}
+
+.text_link {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Color */
+
+.primary_color {
+    color: black;
+}
+
+.secondary_color {
+    color: white;
+}
+
+.tertiary_color {
+
+}
+
+.success_color {
+
+}
+
+.dark_color {
+
+}
+
+.text_color {
+
+}
+
+.subtitle_color {
+
+}
+
+.accent_color {
+
+}
+
+.light_color {
+
+}
+
+
+
